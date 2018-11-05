@@ -29,12 +29,18 @@
 }
 
 .Path-1103 {
+  position: relative;
+
   width: 1280px;
   height: 222.6px;
   background-image: url('Assets/top.svg');
 }
 
 .Quanta {
+  position: absolute;
+  top: 21px;
+  left: 138px;
+
   width: 137px;
   height: 51px;
   font-family: CircularStd;
@@ -49,6 +55,10 @@
 }
 
 .BBQ {
+  position: absolute;
+  top: 36px;
+  left: 309px;
+
   width: 48px;
   height: 30px;
   font-family: CircularStd;
@@ -63,6 +73,10 @@
 }
 
 .Biodata {
+  position: absolute;
+  top: 36px;
+  left: 386px;
+
   width: 82px;
   height: 30px;
   font-family: CircularStd;
@@ -77,6 +91,10 @@
 }
 
 .Gallery {
+  position: absolute;
+  top: 36px;
+  left: 495px;
+
   width: 78px;
   height: 30px;
   font-family: CircularStd;
@@ -90,7 +108,19 @@
   color: #ffffff;
 }
 
+.Event{
+    position: relative;
+
+    width: auto;
+    height: auto;
+    margin-left: 140px;
+}
+
 .Event-Title {
+  position: absolute;
+  top: 41.4px;
+  left: 0px;
+
   width: 475px;
   height: 129px;
   font-family: CircularStd;
@@ -104,40 +134,28 @@
   color: #161743;
 }
 
-.Event-Photo {
+.Event-Slideshow {
+  position: absolute;
+  top: 203.4px;
+  left: 168px;
+
   width: 664px;
   height: 360px;
-  background-image: linear-gradient(to bottom, #f76f6f, #dd4e4e);
 }
 
-.Left-Scroll {
-  width: 10.2px;
-  height: 33.9px;
-  border: solid 4px #707070;
+.Photo-Frame {
+    transition-duration: 0.5s;
 }
 
-.Right-Scroll {
-  width: 10.2px;
-  height: 33.9px;
-  border: solid 4px #707070;
+.Photo-Frame:hover {
+    position:relative;
+    transform: scale(1.5);
+    display:block;
+    z-index:999;
 }
 
-.Tab-Container{
-    width: auto;
-    height: auto;
-    display: inline-block;
-}
-
-.Tab-On {
-  width: 66px;
-  height: 7px;
-  margin: 12px;
-  background-color: #ffffff;
-}
-
-.Tab-Off {
-  width: 66px;
-  height: 7px;
-  margin: 12px;
-  border: solid 1px #ffffff;
+.Photo {
+    width: 664px;
+    height: 360px;
+    object-fit: cover;
 }
