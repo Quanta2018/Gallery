@@ -89,3 +89,55 @@
   text-align: left;
   color: #ffffff;
 }
+
+.Event-Title {
+  width: 475px;
+  height: 129px;
+  font-family: CircularStd;
+  font-size: 102px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: left;
+  color: #161743;
+}
+
+.Event-Photo {
+  width: 664px;
+  height: 360px;
+  background-image: linear-gradient(to bottom, #f76f6f, #dd4e4e);
+}
+
+.Left-Scroll {
+  width: 10.2px;
+  height: 33.9px;
+  border: solid 4px #707070;
+}
+
+.Right-Scroll {
+  width: 10.2px;
+  height: 33.9px;
+  border: solid 4px #707070;
+}
+
+.Tab-Container{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.Tab-On {
+  width: 66px;
+  height: 7px;
+  margin: 12px;
+  background-color: #ffffff;
+}
+
+.Tab-Off {
+  width: 66px;
+  height: 7px;
+  margin: 12px;
+  border: solid 1px #ffffff;
+}
