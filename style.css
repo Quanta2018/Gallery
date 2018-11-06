@@ -110,9 +110,9 @@
 
 .Event{
     position: relative;
+    width: 1000px;
+    height: 580px;
 
-    width: auto;
-    height: auto;
     margin-left: 140px;
 }
 
@@ -121,7 +121,7 @@
   top: 41.4px;
   left: 0px;
 
-  width: 475px;
+  width: auto;
   height: 129px;
   font-family: CircularStd;
   font-size: 102px;
