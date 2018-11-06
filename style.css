@@ -29,8 +29,6 @@
 }
 
 .Path-1103 {
-  position: relative;
-
   width: 1280px;
   height: 222.6px;
   background-image: url('Assets/top.svg');
@@ -110,16 +108,14 @@
 
 .Event{
     position: relative;
-    width: 1000px;
+    width: 1280px;
     height: 580px;
-
-    margin-left: 140px;
 }
 
 .Event-Title {
   position: absolute;
   top: 41.4px;
-  left: 0px;
+  left: 140px;
 
   width: auto;
   height: 129px;
@@ -137,7 +133,7 @@
 .Event-Slideshow {
   position: absolute;
   top: 203.4px;
-  left: 168px;
+  left: 308px;
 
   width: 664px;
   height: 360px;
