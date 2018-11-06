@@ -29,8 +29,8 @@
 }
 
 .Path-1103 {
-  width: 1280px;
-  height: 222.6px;
+  width: 100%;
+  height: 193px;
   background-image: url('Assets/top.svg');
 }
 
@@ -108,7 +108,7 @@
 
 .Event{
     position: relative;
-    width: 1280px;
+    width: 100%;
     height: 580px;
 }
 
