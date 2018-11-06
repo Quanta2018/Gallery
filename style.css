@@ -28,9 +28,16 @@
   font-family: "Circular-Bold"
 }
 
+.Container {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  max-width: 1280px;
+}
+
 .Path-1103 {
   width: 100%;
-  height: 193px;
+  height: 222.6px;
   background-image: url('Assets/top.svg');
 }
 
