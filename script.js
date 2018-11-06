@@ -32,7 +32,9 @@ function getSlideshow(idx){
 		var image = document.createElement("img");
 		image.className = "d-block w-100 Photo";
 		image.setAttribute("src",
-			"test-img/img-"
+			"img/img-"
+			+ idx.toString()
+			+ "-"
 			+ i.toString() 
 			+ ".jpeg");
 		image.setAttribute("object-fit", "cover");
@@ -109,7 +111,7 @@ function loadFunction(){
 		td.width = "1000px";
 		td.height = "580px";
 		td.appendChild(
-			getEvent(i, eventNames[i])
+			getEvent(i+1, eventNames[i])
 			);
 		tr.appendChild(td);
 		eventTable.appendChild(tr);
