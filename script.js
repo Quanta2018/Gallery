@@ -106,6 +106,17 @@ function loadFunction(){
 	eventTable = document.createElement("table");
 	eventTable.setAttribute("style", "table-layout: auto;")
 	for (var i = 0; i < eventNames.length; i++) {
+		var row = document.createElement("div");
+		row.className = "row";
+		var col = document.createElement("div");
+		col.className = "col-lg-12";
+		
+		col.appendChild(
+			getEvent(i+1, eventNames[i])
+			);
+		row.appendChild(col);
+		document.getElementById("main").appendChild(row);
+	/*
 		var tr = document.createElement("tr");
 		var td = document.createElement("td");
 		td.width = "1000px";
@@ -114,7 +125,6 @@ function loadFunction(){
 			getEvent(i+1, eventNames[i])
 			);
 		tr.appendChild(td);
-		eventTable.appendChild(tr);
+		eventTable.appendChild(tr);*/
 	}
-	document.getElementById("main").appendChild(eventTable);
 }

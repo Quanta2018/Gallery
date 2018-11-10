@@ -28,12 +28,25 @@
   font-family: "Circular-Bold"
 }
 
-.Path-1103 {
-  position: relative;
+.Navbar-Container{
+  min-width: 1280px;
+}
 
-  width: 1280px;
-  height: 222.6px;
-  background-image: url('Assets/top.svg');
+.Container {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  max-width: 1280px;
+}
+
+.Path-1103 {
+  width: 100%;
+  height: auto;
+}
+
+.Navbar-Img {
+  width: 100%;
+  height: auto;
 }
 
 .Quanta {
@@ -110,16 +123,14 @@
 
 .Event{
     position: relative;
-    width: 1000px;
+    width: 100%;
     height: 580px;
-
-    margin-left: 140px;
 }
 
 .Event-Title {
   position: absolute;
   top: 41.4px;
-  left: 0px;
+  left: 140px;
 
   width: auto;
   height: 129px;
@@ -137,7 +148,7 @@
 .Event-Slideshow {
   position: absolute;
   top: 203.4px;
-  left: 168px;
+  left: 308px;
 
   width: 664px;
   height: 360px;
