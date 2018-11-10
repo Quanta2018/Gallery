@@ -36,7 +36,7 @@ function getSlideshow(idx){
 			+ idx.toString()
 			+ "-"
 			+ i.toString() 
-			+ ".jpeg");
+			+ ".JPG");
 		image.setAttribute("object-fit", "cover");
 		image.setAttribute("alt", "Slide " + i.toString());
 
